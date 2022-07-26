@@ -21,6 +21,8 @@ app.use('/api/users', require('./routes/users'));
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/contacts', require('./routes/contacts'));
 
+
+
 const PORT = process.env.PORT || 5000;
 
 //* Serve static assets in production, must be at this location of this file
